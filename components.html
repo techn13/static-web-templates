@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse and copy ready-to-use UI component examples.">
+  <title>Component styles — Beautiify</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="components.css"><link rel="stylesheet" href="creative.css">
+  <script src="components.js" defer></script><script src="motion.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor-sheen" aria-hidden="true"></div><div class="cursor-follower" aria-hidden="true"><span></span></div>
+  <div class="page-loader" id="page-loader" aria-hidden="true"><span class="loader-mark">B</span><span class="loader-word">Beautiify</span><span class="loader-track"><i></i></span><span class="loader-caption">Preparing your creative space</span></div>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">B</span>Beautiify</a><nav class="primary-nav" aria-label="Main navigation"><a href="index.html#catalog">All components</a><button class="theme-toggle" type="button" aria-label="Switch to dark theme" id="theme-toggle">◐</button></nav></header>
+  <main id="main" class="component-page section-wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="index.html#catalog">Components</a><span aria-hidden="true">/</span><span id="breadcrumb-current">Loading</span></nav>
+    <header class="category-header"><p class="eyebrow">Component collection</p><h1 id="category-title">Loading components…</h1><p id="category-description"></p><div class="category-meta"><span id="example-count"></span><label for="example-search">Filter examples</label><input id="example-search" type="search" placeholder="Filter by style name" autocomplete="off"></div></header>
+    <div class="example-grid" id="example-grid"></div>
+    <div class="empty-state" id="empty-state" hidden><h2>No examples match that search</h2><p>Clear the filter or try another term.</p></div>
+    <div class="category-bottom"><a class="button button-secondary" href="index.html#catalog">← All categories</a><span>Each example includes standalone HTML and CSS.</span></div>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">B</span>Beautiify</a><p>Made for clear, considered interfaces.</p><a class="back-top" href="#main">Back to top ↑</a></footer>
+</body>
+</html>
